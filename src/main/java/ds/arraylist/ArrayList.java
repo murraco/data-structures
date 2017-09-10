@@ -18,15 +18,7 @@ public class ArrayList<E extends Comparable<E>> {
 		items = Arrays.copyOf(items, items.length * 2);
 	}
 
-	public boolean addFirst(E value) {
-		return add(value, 0);
-	}
-
-	public boolean addLast(E value) {
-		return add(value, size);
-	}
-
-	public boolean add(E value, int i) {
+	public boolean add(int i, E value) {
 		if (i < 0 || i > size) {
 			return false;
 		}
@@ -39,28 +31,12 @@ public class ArrayList<E extends Comparable<E>> {
 		return true;
 	}
 
-	public E getFirst() {
-		return get(0);
-	}
-
-	public E getLast() {
-		return get(size - 1);
-	}
-
 	@SuppressWarnings("unchecked")
 	public E get(int i) {
 		if (i >= size || i < 0) {
 			return null;
 		}
 		return (E) items[i];
-	}
-
-	public void removeFirst() {
-		remove(0);
-	}
-
-	public void removeLast() {
-		remove(size - 1);
 	}
 
 	/**

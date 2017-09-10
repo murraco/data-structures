@@ -21,41 +21,27 @@ public class JUnitTest {
 	@Test
 	public void testArrayList() {
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
-
-		arrayList.addFirst(6);
-		arrayList.addFirst(5);
-		arrayList.addFirst(4);
-		arrayList.addFirst(3);
-		arrayList.addFirst(2);
-		arrayList.addFirst(1);
-		arrayList.addFirst(0);
-		assertEquals("[0, 1, 2, 3, 4, 5, 6]", arrayList.toString());
-		assertEquals(0, arrayList.getFirst().intValue());
-		assertEquals(6, arrayList.getLast().intValue());
-
-		arrayList.addLast(7);
-		arrayList.addLast(8);
-		assertEquals("[0, 1, 2, 3, 4, 5, 6, 7, 8]", arrayList.toString());
-
+		arrayList.add(0, 6);
+		arrayList.add(0, 5);
+		arrayList.add(0, 4);
+		arrayList.add(0, 3);
+		arrayList.add(0, 2);
 		arrayList.add(0, 1);
-		assertEquals("[0, 0, 1, 2, 3, 4, 5, 6, 7, 8]", arrayList.toString());
+		arrayList.add(arrayList.size(), 0);
 
-		arrayList.add(7, 7);
-		assertEquals("[0, 0, 1, 2, 3, 4, 5, 7, 6, 7, 8]", arrayList.toString());
+		assertEquals("[1, 2, 3, 4, 5, 6, 0]", arrayList.toString());
+		assertEquals(1, arrayList.get(0).intValue());
+		assertEquals(0, arrayList.get(arrayList.size() - 1).intValue());
 
-		assertEquals(11, arrayList.size());
+		arrayList.add(arrayList.size(), 7);
+		arrayList.add(arrayList.size(), 8);
 
-		arrayList.removeLast();
-		arrayList.removeFirst();
-		assertEquals("[0, 1, 2, 3, 4, 5, 7, 6, 7]", arrayList.toString());
-
-		arrayList.remove(0);
-		arrayList.remove(arrayList.size() - 1);
-		assertEquals("[1, 2, 3, 4, 5, 7, 6]", arrayList.toString());
+		assertEquals("[1, 2, 3, 4, 5, 6, 0, 7, 8]", arrayList.toString());
 
 		while (!arrayList.isEmpty()) {
 			arrayList.remove(0);
 		}
+
 		assertEquals("[]", arrayList.toString());
 	}
 
@@ -70,6 +56,7 @@ public class JUnitTest {
 		tree.insert("G");
 		tree.insert("I");
 		tree.insert("H");
+
 		assertEquals("F, B, A, D, C, E, G, I, H", tree.toString());
 	}
 
@@ -81,6 +68,7 @@ public class JUnitTest {
 		for (int num : numbers) {
 			hp.insert(num);
 		}
+
 		assertEquals("[5, 4, 3, 1, 2]", hp.toString());
 
 		assertTrue(hp.remove() == 5);
@@ -98,6 +86,7 @@ public class JUnitTest {
 		for (int num : numbers) {
 			hp.insert(num);
 		}
+
 		assertEquals("[1, 2, 5, 4, 3]", hp.toString());
 
 		assertTrue(hp.remove() == 1);
@@ -110,33 +99,21 @@ public class JUnitTest {
 	@Test
 	public void testLinkedList() {
 		LinkedList<Integer> list = new LinkedList<Integer>();
-
-		list.addFirst(6);
-		list.addFirst(5);
-		list.addFirst(4);
-		list.addFirst(3);
-		list.addFirst(2);
-		list.addFirst(1);
-		list.addFirst(0);
-		assertEquals("0, 1, 2, 3, 4, 5, 6", list.toString());
-		assertEquals(0, list.getFirst().getValue().intValue());
-		assertEquals(6, list.getLast().getValue().intValue());
-
-		list.removeLast();
-		assertEquals("0, 1, 2, 3, 4, 5", list.toString());
-
-		list.addLast(7);
-		list.addLast(8);
-		System.out.println(list.toString());
-		assertEquals("0, 1, 2, 3, 4, 5, 7, 8", list.toString());
-
+		list.add(0, 6);
+		list.add(0, 5);
+		list.add(0, 4);
+		list.add(0, 3);
+		list.add(0, 2);
 		list.add(0, 1);
-		assertEquals("0, 0, 1, 2, 3, 4, 5, 7, 8", list.toString());
+		list.add(list.size(), 0);
 
-		list.add(7, 7);
-		assertEquals("0, 0, 1, 2, 3, 4, 5, 7, 7, 8", list.toString());
+		assertEquals("1, 2, 3, 4, 5, 6, 0", list.toString());
+		assertEquals(1, list.get(0).getValue().intValue());
+		assertEquals(0, list.get(list.size() - 1).getValue().intValue());
 
-		assertEquals(10, list.size());
+		list.remove(list.size() - 1);
+
+		assertEquals("1, 2, 3, 4, 5, 6", list.toString());
 	}
 
 	@Test
@@ -145,6 +122,7 @@ public class JUnitTest {
 		for (int i = 0; i < 10; i++) {
 			queue.enqueue(i);
 		}
+
 		assertEquals("0, 1, 2, 3, 4, 5, 6, 7, 8, 9", queue.toString());
 		assertEquals(0, queue.dequeue().getValue().intValue());
 		assertEquals(1, queue.dequeue().getValue().intValue());
@@ -165,6 +143,7 @@ public class JUnitTest {
 		for (int i = 0; i < 10; i++) {
 			stack.push(i);
 		}
+
 		assertEquals("9, 8, 7, 6, 5, 4, 3, 2, 1, 0", stack.toString());
 		assertEquals(9, stack.pop().getValue().intValue());
 		assertEquals(8, stack.pop().getValue().intValue());

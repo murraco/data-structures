@@ -31,7 +31,7 @@ public class BST<E extends Comparable<E>> {
 	 *            Searching value
 	 * @return The node if it exists, otherwise null
 	 */
-	public TreeNode<E> get(TreeNode<E> root, E value) {
+	private TreeNode<E> get(TreeNode<E> root, E value) {
 		if (root == null) {
 			return null;
 		} else if (root.getValue() == value) {
@@ -58,7 +58,7 @@ public class BST<E extends Comparable<E>> {
 	 *            Value of the new node
 	 * @return The tree itself if the value doesn't exist, otherwise null
 	 */
-	public TreeNode<E> insert(TreeNode<E> root, E value) {
+	private TreeNode<E> insert(TreeNode<E> root, E value) {
 		if (root == null) {
 			size++;
 			return new TreeNode<E>(value);
@@ -104,7 +104,7 @@ public class BST<E extends Comparable<E>> {
 	 * @param queue
 	 *            Queue with values
 	 */
-	public void treeToPreOrderQueue(TreeNode<E> root, Queue<E> queue) {
+	private void treeToPreOrderQueue(TreeNode<E> root, Queue<E> queue) {
 		if (root == null) {
 			return;
 		}
