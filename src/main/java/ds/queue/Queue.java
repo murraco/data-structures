@@ -1,6 +1,6 @@
-package bds.queue;
+package ds.queue;
 
-import bds.linkedlist.Node;
+import ds.linkedlist.Node;
 
 public class Queue<E extends Comparable<E>> {
 

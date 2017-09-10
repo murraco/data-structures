@@ -1,4 +1,4 @@
-package bds.linkedlist;
+package ds.linkedlist;
 
 public class LinkedList<E extends Comparable<E>> {
 

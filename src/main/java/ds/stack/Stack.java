@@ -1,6 +1,6 @@
-package bds.stack;
+package ds.stack;
 
-import bds.linkedlist.Node;
+import ds.linkedlist.Node;
 
 public class Stack<E extends Comparable<E>> {
 

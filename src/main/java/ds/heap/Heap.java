@@ -1,4 +1,4 @@
-package bds.heap;
+package ds.heap;
 
 import java.util.ArrayList;
 

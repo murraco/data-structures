@@ -1,4 +1,4 @@
-package bds.arraylist;
+package ds.arraylist;
 
 import java.util.Arrays;
 

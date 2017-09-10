@@ -1,4 +1,4 @@
-package bds.test;
+package ds.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -6,15 +6,15 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import bds.arraylist.ArrayList;
-import bds.bst.BST;
-import bds.heap.Heap;
-import bds.heap.MaxHeap;
-import bds.heap.MinHeap;
-import bds.linkedlist.LinkedList;
-import bds.queue.Queue;
-import bds.stack.Stack;
-import bds.trie.Trie;
+import ds.arraylist.ArrayList;
+import ds.bst.BST;
+import ds.heap.Heap;
+import ds.heap.MaxHeap;
+import ds.heap.MinHeap;
+import ds.linkedlist.LinkedList;
+import ds.queue.Queue;
+import ds.stack.Stack;
+import ds.trie.Trie;
 
 public class JUnitTest {
 
