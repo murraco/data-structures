@@ -5,13 +5,16 @@
 
 # Structures
 
-![](https://img.shields.io/badge/array--list-?-blue.svg)
-![](https://img.shields.io/badge/linked--list-?-blue.svg)
-![](https://img.shields.io/badge/stack-?-blue.svg)
-![](https://img.shields.io/badge/queue-?-blue.svg)
-![](https://img.shields.io/badge/bst-?-blue.svg)
-![](https://img.shields.io/badge/heap-?-blue.svg)
-![](https://img.shields.io/badge/trie-?-blue.svg)
+
+![](https://img.shields.io/badge/arraylist-✓-blue.svg)
+![](https://img.shields.io/badge/linkedlist-✓-blue.svg)
+![](https://img.shields.io/badge/stack-✓-blue.svg)
+![](https://img.shields.io/badge/queue-✓-blue.svg)
+![](https://img.shields.io/badge/bst-✓-blue.svg)
+![](https://img.shields.io/badge/heap-✓-blue.svg)
+![](https://img.shields.io/badge/trie-✓-blue.svg)
+
+
 
 ## ArrayList
 
@@ -42,8 +45,8 @@ A queue is a FIFO (first in, first out) structure. When an object is inserted in
 **insert/remove/search:** average `O(log n)` - worst `O(n)`
 
 Binary search tree, is a node-based binary tree data structure which has the following properties:
-- The left subtree of a node contains only nodes with keys less than the node�s key.
-- The right subtree of a node contains only nodes with keys greater than the node�s key.
+- The left subtree of a node contains only nodes with keys less than the node’s key.
+- The right subtree of a node contains only nodes with keys greater than the node’s key.
 - The left and right subtree each must also be a binary search tree.
 - There must be no duplicate nodes.
 
