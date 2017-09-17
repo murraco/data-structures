@@ -1,4 +1,4 @@
-package ds.linkedlist;
+package data.structures.linkedlist;
 
 public class Node<E extends Comparable<E>> {
 

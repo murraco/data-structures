@@ -1,4 +1,4 @@
-package ds.heap;
+package data.structures.heap;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package ds.arraylist;
+package data.structures.arraylist;
 
 import java.util.Arrays;
 

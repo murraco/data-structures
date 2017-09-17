@@ -1,4 +1,4 @@
-package ds.trie;
+package data.structures.trie;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package ds.bst;
+package data.structures.bst;
 
 import java.util.LinkedList;
 import java.util.Queue;

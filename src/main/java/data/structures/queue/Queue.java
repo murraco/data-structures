@@ -1,6 +1,6 @@
-package ds.queue;
+package data.structures.queue;
 
-import ds.linkedlist.Node;
+import data.structures.linkedlist.Node;
 
 public class Queue<E extends Comparable<E>> {
 

@@ -1,4 +1,4 @@
-package ds.bst;
+package data.structures.bst;
 
 public class TreeNode<E extends Comparable<E>> {
 

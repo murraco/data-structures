@@ -1,6 +1,6 @@
-package ds.stack;
+package data.structures.stack;
 
-import ds.linkedlist.Node;
+import data.structures.linkedlist.Node;
 
 public class Stack<E extends Comparable<E>> {
 
