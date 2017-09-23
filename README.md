@@ -73,3 +73,7 @@ Every node of a trie consists of multiple branches. Each branch represents a pos
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
+
+# TO-DO
+
+- [ ] Improve unit testing
