@@ -1,4 +1,4 @@
-package data.structures.trie;
+package murraco.trie;
 
 import java.util.ArrayList;
 import java.util.Collection;

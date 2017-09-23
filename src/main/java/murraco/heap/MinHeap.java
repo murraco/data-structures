@@ -1,4 +1,4 @@
-package data.structures.heap;
+package murraco.heap;
 
 public class MinHeap<E extends Comparable<E>> extends Heap<E> {
 

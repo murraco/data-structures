@@ -1,4 +1,4 @@
-package data.structures.bst;
+package murraco.bst;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package data.structures.linkedlist;
+package murraco.linkedlist;
 
 public class LinkedList<E extends Comparable<E>> {
 

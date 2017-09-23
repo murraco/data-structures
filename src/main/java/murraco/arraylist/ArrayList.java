@@ -1,4 +1,4 @@
-package data.structures.arraylist;
+package murraco.arraylist;
 
 import java.util.Arrays;
 

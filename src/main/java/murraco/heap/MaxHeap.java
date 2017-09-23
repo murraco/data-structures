@@ -1,4 +1,4 @@
-package data.structures.heap;
+package murraco.heap;
 
 public class MaxHeap<E extends Comparable<E>> extends Heap<E> {
 

@@ -1,4 +1,4 @@
-package data.structures.bst;
+package murraco.bst;
 
 public class TreeNode<E extends Comparable<E>> {
 

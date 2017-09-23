@@ -1,6 +1,6 @@
-package data.structures.stack;
+package murraco.stack;
 
-import data.structures.linkedlist.Node;
+import murraco.linkedlist.Node;
 
 public class Stack<E extends Comparable<E>> {
 

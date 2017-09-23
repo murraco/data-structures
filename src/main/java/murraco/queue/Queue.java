@@ -1,6 +1,6 @@
-package data.structures.queue;
+package murraco.queue;
 
-import data.structures.linkedlist.Node;
+import murraco.linkedlist.Node;
 
 public class Queue<E extends Comparable<E>> {
 
