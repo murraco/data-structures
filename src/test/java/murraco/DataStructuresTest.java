@@ -1,4 +1,4 @@
-package data.structures.test;
+package murraco;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -6,17 +6,17 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import data.structures.arraylist.ArrayList;
-import data.structures.bst.BST;
-import data.structures.heap.Heap;
-import data.structures.heap.MaxHeap;
-import data.structures.heap.MinHeap;
-import data.structures.linkedlist.LinkedList;
-import data.structures.queue.Queue;
-import data.structures.stack.Stack;
-import data.structures.trie.Trie;
+import murraco.arraylist.ArrayList;
+import murraco.bst.BST;
+import murraco.heap.Heap;
+import murraco.heap.MaxHeap;
+import murraco.heap.MinHeap;
+import murraco.linkedlist.LinkedList;
+import murraco.queue.Queue;
+import murraco.stack.Stack;
+import murraco.trie.Trie;
 
-public class JUnitTest {
+public class DataStructuresTest {
 
 	@Test
 	public void testArrayList() {
