@@ -13,6 +13,35 @@
 ![](https://img.shields.io/badge/heap-✓-blue.svg)
 ![](https://img.shields.io/badge/trie-✓-blue.svg)
 
+# File structure
+
+```
+data-structures/
+ ├──src/main/java/murraco
+ │   ├──arraylist
+ │   │   └──ArrayList.java
+ │   ├──bst
+ │   │   ├──BST.java
+ │   │   └──TreeNode.java
+ │   ├──heap
+ │   │   ├──Heap.java
+ │   │   ├──MaxHeap.java
+ │   │   └──MinHeap.java
+ │   ├──linkedlist
+ │   │   ├──LinkedList.java
+ │   │   └──Node.java
+ │   ├──queue
+ │   │   └──Queue.java
+ │   ├──stack
+ │   │   └──Stack.java
+ │   └──trie
+ │       └──Trie.java
+ ├──src/test/java/murraco         
+ │   └──DataStructures.java
+ └──pom.xml
+ ```
+
+
 ## ArrayList
 
 **add/remove:** `O(n)` - **search:** `O(1)`
