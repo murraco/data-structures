@@ -13,7 +13,7 @@ public class Stack<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Adds a new value to the stack O(1)
+	 * Adds a new value to the stack O(1).
 	 * 
 	 * @param value
 	 *            Value we want to add
@@ -26,7 +26,7 @@ public class Stack<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Returns the top without removing it from the stack O(1)
+	 * Returns the top without removing it from the stack O(1).
 	 * 
 	 * @return The top of the stack if it's not empty, otherwise null
 	 */
@@ -35,7 +35,7 @@ public class Stack<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Returns the top and removes it from the stack O(1)
+	 * Returns the top and removes it from the stack O(1).
 	 * 
 	 * @return The top of the stack if it's not empty, otherwise null
 	 */

@@ -11,7 +11,7 @@ public class LinkedList<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Gets the element of the list at the given position O(n)
+	 * Gets the element of the list at the given position O(n).
 	 * 
 	 * @param i
 	 *            The position of the element we're trying to get
@@ -36,7 +36,7 @@ public class LinkedList<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Inserts a new value in the list at the given position O(n)
+	 * Inserts a new value in the list at the given position O(n).
 	 * 
 	 * @param value
 	 *            The value of the new node we're inserting
@@ -73,7 +73,7 @@ public class LinkedList<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Removes an element from the list at the given position O(n)
+	 * Removes an element from the list at the given position O(n).
 	 * 
 	 * @param i
 	 *            Position of the element we want to remove

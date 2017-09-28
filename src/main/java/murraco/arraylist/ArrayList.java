@@ -40,7 +40,7 @@ public class ArrayList<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Removes an element from the array list at the given position O(n)
+	 * Removes an element from the array list at the given position O(n).
 	 * 
 	 * @param i
 	 *            Position of the element we want to remove

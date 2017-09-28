@@ -13,7 +13,7 @@ public class Queue<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Adds a new value to the queue O(1)
+	 * Adds a new value to the queue O(1).
 	 * 
 	 * @param value
 	 *            Value of the element we want to add
@@ -30,7 +30,7 @@ public class Queue<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Returns the head without removing it from the queue O(1)
+	 * Returns the head without removing it from the queue O(1).
 	 * 
 	 * @return The head of the queue if it's not empty, otherwise null
 	 */
@@ -42,7 +42,7 @@ public class Queue<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Returns the head and removes it from the queue O(1)
+	 * Returns the head and removes it from the queue O(1).
 	 * 
 	 * @return The head of the queue if it's not empty, otherwise null
 	 */

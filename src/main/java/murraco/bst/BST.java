@@ -23,7 +23,7 @@ public class BST<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Searches for a node with the given value (O log n)
+	 * Searches for a node with the given value (O log n).
 	 * 
 	 * @param root
 	 *            Root node of the searching tree
@@ -50,7 +50,7 @@ public class BST<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Inserts a new node with the given value (O log n)
+	 * Inserts a new node with the given value (O log n).
 	 * 
 	 * @param root
 	 *            Root node of the tree
@@ -97,7 +97,7 @@ public class BST<E extends Comparable<E>> {
 	}
 
 	/**
-	 * Copy all the values of the given queue into the given tree O(n)
+	 * Copy all the values of the given queue into the given tree O(n).
 	 * 
 	 * @param root
 	 *            Root node of the tree
