@@ -18,34 +18,35 @@
 ```
 data-structures/
  │
- ├──src/main/java/murraco
- │   ├──arraylist
- │   │   └──ArrayList.java
- │   │
- │   ├──bst
- │   │   ├──BST.java
- │   │   └──TreeNode.java
- │   │
- │   ├──heap
- │   │   ├──Heap.java
- │   │   ├──MaxHeap.java
- │   │   └──MinHeap.java
- │   │
- │   ├──linkedlist
- │   │   ├──LinkedList.java
- │   │   └──Node.java
- │   │
- │   ├──queue
- │   │   └──Queue.java
- │   │
- │   ├──stack
- │   │   └──Stack.java
- │   │
- │   └──trie
- │       └──Trie.java
+ ├── src/main/java/
+ │   └── murraco
+ │       ├── arraylist
+ │       │   └── ArrayList.java
+ │       │
+ │       ├── bst
+ │       │   ├── BST.java
+ │       │   └── TreeNode.java
+ │       │
+ │       ├── heap
+ │       │   ├── Heap.java
+ │       │   ├── MaxHeap.java
+ │       │   └── MinHeap.java
+ │       │
+ │       ├── linkedlist
+ │       │   ├── LinkedList.java
+ │       │   └── Node.java
+ │       │
+ │       ├── queue
+ │       │   └── Queue.java
+ │       │
+ │       ├── stack
+ │       │   └── Stack.java
+ │       │
+ │       └── trie
+ │           └── Trie.java
  │
- ├──pom.xml
- └──README.md
+ ├── pom.xml
+ └── README.md
  ```
 
 ## ArrayList
