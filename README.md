@@ -13,34 +13,40 @@
 ![](https://img.shields.io/badge/heap-✓-blue.svg)
 ![](https://img.shields.io/badge/trie-✓-blue.svg)
 
-# File structure
+# File Structure
 
 ```
 data-structures/
+ │
  ├──src/main/java/murraco
  │   ├──arraylist
  │   │   └──ArrayList.java
+ │   │
  │   ├──bst
  │   │   ├──BST.java
  │   │   └──TreeNode.java
+ │   │
  │   ├──heap
  │   │   ├──Heap.java
  │   │   ├──MaxHeap.java
  │   │   └──MinHeap.java
+ │   │
  │   ├──linkedlist
  │   │   ├──LinkedList.java
  │   │   └──Node.java
+ │   │
  │   ├──queue
  │   │   └──Queue.java
+ │   │
  │   ├──stack
  │   │   └──Stack.java
+ │   │
  │   └──trie
  │       └──Trie.java
- ├──src/test/java/murraco         
- │   └──DataStructures.java
- └──pom.xml
+ │
+ ├──pom.xml
+ └──README.md
  ```
-
 
 ## ArrayList
 
@@ -102,7 +108,3 @@ Every node of a trie consists of multiple branches. Each branch represents a pos
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
-
-# TO-DO
-
-- [ ] Improve unit testing
