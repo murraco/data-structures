@@ -44,6 +44,7 @@ data-structures/
  │       └── trie
  │           └── Trie.java
  │
+ ├── .gitignore
  ├── pom.xml
  └── README.md
  ```
