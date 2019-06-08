@@ -12,6 +12,12 @@
 ![](https://img.shields.io/badge/heap-✓-blue.svg)
 ![](https://img.shields.io/badge/trie-✓-blue.svg)
 
+***
+
+<h3 align="center">Help this repo with a :star: if it's useful! :blush:</h3>
+
+***
+
 # File Structure
 
 ```
