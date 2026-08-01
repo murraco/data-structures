@@ -1,7 +1,5 @@
 # Data Structures
 
-![](https://img.shields.io/badge/build-success-brightgreen.svg)
-
 # Structures
 
 ![](https://img.shields.io/badge/arraylist-✓-blue.svg)
