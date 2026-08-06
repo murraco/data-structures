@@ -1,6 +1,8 @@
 # Data Structures
 
-# Structures
+Classic data structures implemented from scratch in Java, each with a short write-up of its complexity and trade-offs.
+
+## Structures
 
 ![](https://img.shields.io/badge/arraylist-✓-blue.svg)
 ![](https://img.shields.io/badge/linkedlist-✓-blue.svg)
@@ -10,68 +12,70 @@
 ![](https://img.shields.io/badge/heap-✓-blue.svg)
 ![](https://img.shields.io/badge/trie-✓-blue.svg)
 
-# File Structure
+## File structure
 
 ```
 data-structures/
- │
- ├── src/main/java/
- │   └── murraco
- │       ├── arraylist
- │       │   └── ArrayList.java
- │       │
- │       ├── bst
- │       │   ├── BST.java
- │       │   └── TreeNode.java
- │       │
- │       ├── heap
- │       │   ├── Heap.java
- │       │   ├── MaxHeap.java
- │       │   └── MinHeap.java
- │       │
- │       ├── linkedlist
- │       │   ├── LinkedList.java
- │       │   └── Node.java
- │       │
- │       ├── queue
- │       │   └── Queue.java
- │       │
- │       ├── stack
- │       │   └── Stack.java
- │       │
- │       └── trie
- │           └── Trie.java
- │
- ├── .gitignore
- ├── pom.xml
- └── README.md
- ```
+│
+├── src/main/java/
+│   └── murraco
+│       ├── arraylist
+│       │   └── ArrayList.java
+│       │
+│       ├── bst
+│       │   ├── BST.java
+│       │   └── TreeNode.java
+│       │
+│       ├── heap
+│       │   ├── Heap.java
+│       │   ├── MaxHeap.java
+│       │   └── MinHeap.java
+│       │
+│       ├── linkedlist
+│       │   ├── LinkedList.java
+│       │   └── Node.java
+│       │
+│       ├── queue
+│       │   └── Queue.java
+│       │
+│       ├── stack
+│       │   └── Stack.java
+│       │
+│       └── trie
+│           └── Trie.java
+│
+├── .gitignore                    * Example git ignore file
+├── pom.xml                       * Defines our Java dependencies
+└── README.md                     * This file
+```
 
-## ArrayList
+## Implementations
+
+### ArrayList
 
 **add/remove:** `O(n)` - **search:** `O(1)`
 
 An array is nothing but a sequential collection of the same type of elements, accessed by their index values. Naturally, an array list also behaves in a similar manner with the difference that's a re-sizable data structure. Array lists are created with an initial size. When this size is exceeded, the collection is automatically enlarged. When objects are removed, the array may be shrunk. Array lists are fast for accessing a specific element but can be slow to add to either end, and especially slow to delete in the middle.
 
-## LinkedList
+### LinkedList
 
 **add/remove:** `O(1)` - **search:** `O(n)`
 
 A linked list is made up of node objects that hold objects of the same type in a linear order. The size of a linked list can shrink and grow; it doesn't have a predetermined size like an array does. A linked list node object contains a generic object and a node of the same type as itself. A linked list node can link to another node object of the same type. Nodes in a linked list connect to other nodes by holding a reference point of the other node. The basic operations of a linked list are insert and delete. Changing the reference pointers of the nodes is how inserting and deleting a node is accomplished.
 
-## Stack
+### Stack
 
 **push/pop/top:** `O(1)` - **search:** `O(n)`
 
 A stack is a **lifo** (last in, first out) structure. A stack has only one point where data enters or leaves, and this point is referred to as the top. We can't insert or remove elements into or from the middle of the stack. A stack can be implemented using a linked list by defining the insert and delete routines so that nodes are always inserted and deleted from the head (top) of the linked list. When data is inserted to the stack it is called push, as in pushing data onto the stack. When data is deleted from the stack it is called pop, as in popping data off of the stack.
 
-## Queue
+### Queue
 
 **enqueue/dequeue/peek:** `O(1)` - **search:** `O(n)`
 
 A queue is a **fifo** (first in, first out) structure. When an object is inserted into the queue it's referred to as enqueue. When an object is deleted from the queue it;s referred to as dequeue. Objects in a queue can only be inserted to the front and deleted from the back. A queue can be implemented using a linked list by defining the insert and delete routines. All enqueue's must insert to the head (front) of the linked list. All dequeue's must delete from the tail (back) of the linked list.
 
-## BST (Binary Search Tree)
+### BST (Binary Search Tree)
 
 **insert/remove/search:** average `O(log n)` - worst `O(n)`
 
@@ -81,7 +85,7 @@ Binary search tree, is a node-based binary tree data structure which has the fol
 - The left and right subtree each must also be a binary search tree.
 - There must be no duplicate nodes.
 
-## Heap
+### Heap
 
 **peek:** `O(1)` - **insert/remove:** `O(log n)`- **search:** `O(n)`
 
@@ -89,7 +93,7 @@ A binary heap is a complete binary tree which satisfies the heap ordering proper
 - The **min-heap** property: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.
 - The **max-heap** property: the value of each node is less than or equal to the value of its parent, with the maximum-value element at the root.
 
-## Trie
+### Trie
 
 `w: number of words`
 
@@ -101,13 +105,15 @@ A trie is an efficient information retrieval data structure. Using a trie, searc
 
 Every node of a trie consists of multiple branches. Each branch represents a possible character of keys. We need to mark the last node of every key as leaf node. A trie node field value will be used to distinguish the node as leaf node.
 
-# Contribution
+## Contribution
 
 - Report issues
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
 
-# Buy me a coffee to show your support!
+## Support
+
+If this project helped you, consider buying me a coffee ☕️
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
