@@ -1,3 +1,6 @@
+> **Archived.** Educational reference, Java 8 era, unmaintained. Kept as-is for anyone who
+> finds it useful, but not accepting issues or PRs.
+
 # Data Structures
 
 Classic data structures implemented from scratch in Java, each with a short write-up of its complexity and trade-offs.
